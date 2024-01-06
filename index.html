@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset ="UTF-8">'
+    <meta name="author" content ="karpagam">
+    <meta name="description" content ="The official website for the little cafe shop" >
+    <title>my html web page</title> 
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<head>
+    <body>
+        <header>
+        <h1> WELCOME TO LITTLE CAFE </h1>
+        <!-- used to navigate to pages -->
+        <nav>
+            <ul>
+                <!-- these take u to that section in the same page by scrolling -->
+                <li>
+                    <a href="#about">About 
+                        <abbr title="The cafe shop">Tcs</abbr>
+                    </a>
+                </li>
+                <li>
+                    <a href="#menu">Our Menu</a>
+                       
+                </li>
+                <!-- these take u to next page -->
+                <li>
+                    <a href="hours.html">cafe hours</a>
+                       
+                </li>
+                <li>
+                    <a href="contact.html">contact us</a>
+                       
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <!-- image download from unplash-->
+            <img src="nathan-dumlao-c2Y16tC3yO8-unsplash.jpg" alt="take a break with coffee" 
+            width="220" height="220">
+            <figcaption>
+                the taste of coffee
+            </figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <!-- our content-->
+        <article id="about">
+            <h2> About <abbr title =" The Little cafe shop">TCS</abbr></h2>
+            <p>
+                <abbr title="The little cafe Shop">tcs</abbr>
+                <time datetime="2023">2023</time>
+                Our shop was built from a love of coffee bean.
+                <ol>
+                    <li>
+                        We hope our shop adds a unique and special
+                    </li>
+                    <!-- can ad emoji from emojipedia.org-->
+                    <li> Let every sip of the coffee would add more memories...😊</li>
+                    <li><strong> Just relax and take a sip</strong> </li>
+                </ol>
+                <aside>
+                    <h3> coffee trivial</h3>
+                    <details>
+                        <!-- for the question and to see answer by clicking the arrow-->
+                        <summary> when did you first coffee invented? </summary>
+                        <p>
+                            Coffee grown worldwide can trace its heritage back centuries
+                             to the ancient coffee forests on the Ethiopian plateau.
+             There, legend says the goat herder Kaldi first discovered the potential of these beloved beans. 
+             (Source: <cite> 
+<a href="https://www.ncausa.org/about-coffee/history-of-coffee#:~:text=An%20Ethiopian%20Legend&text=There%2C%20legend%20says%20the%20goat,want%20to%20sleep%20at%20night.">the website to know more
+
+             </a></cite>)
+                        </p>
+                    </details>
+                </aside>
+        </article>
+        <hr>
+        <article id = "menu">
+            <h2> Our menu </h2>
+            <!-- creating a table-->
+            <table>
+                <caption> our  coffee drinks </caption>
+                <thead>
+                    <tr>
+                        <th>Coffee</th>
+                        <th scope="col"><abbr title="Quantity">
+                            QTY
+                        </abbr></th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            taste drinks
+                        </th>
+                        <td>1 cup</td>
+                        <td>Rs 30</td>
+                    </tr>
+                    <tr>
+                        <td>1 cup+print</td>
+                        <td>Rs 160</td>
+                    </tr>
+                    <tr>
+                        <td>1 cup + toppings</td>
+                        <td>Rs 120</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            cold drinks
+                        </th>
+                        <td>cold cup</td>
+                        <td>Rs 30</td>
+                    </tr>
+                    <tr>
+                        <td>1 ice cup+chocolate</td>
+                        <td>Rs 140</td>
+                    </tr>
+                    <tr>
+                        <td> 2 ice shake </td>
+                        <td>Rs 190</td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <td colsapn="3">
+                        other drink &amp; mixed shake rs 200
+                    </td>
+                </tfoot>
+            </table>
+            <br>
+            <p>
+                <a href="#"> Back to top </a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>
+            copyright &lt;&lt;&copy; my copyright &gt;&gt;&gt;
+        </p>
+    </footer>
+    </body>
+        
+    </head>
+</html>
